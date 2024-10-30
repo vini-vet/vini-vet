@@ -27,7 +27,9 @@
       /* Estilo para o texto secundário */
       .subtitulo {
         font-family: 'Times New Roman', serif;
+        font-weight: bold;
         font-size: 24px;
+        text-transform: uppercase; /* Caixa alta */
         text-align: center;
         margin-top: 20px;
       }
@@ -38,12 +40,30 @@
         font-size: 18px;
         text-align: center;
         margin-top: 10px;
+        display: inline-block;
+        width: 60%;
+        vertical-align: top;
+      }
+
+      /* Estilo para a imagem */
+      .imagem-cachorro {
+        display: inline-block;
+        width: 30%;
+        max-width: 400px;
+        height: auto;
+        vertical-align: top;
+        margin-left: 20px;
       }
     </style>
   </head>
   <body>
     <h1 class="titulo">VINIVET</h1>
     <p class="subtitulo">A melhor opção em medicina veterinária da região!</p>
-    <p class="explicativo">O Dr. Ribas Figueira está aqui para ajudar! A medicina veterinária é uma ciência dedicada ao cuidado e bem-estar dos animais, garantindo que eles estejam livres de doenças, recebam nutrição adequada e vivam em ambientes saudáveis. A atuação de um veterinário é essencial, desde tratamentos preventivos até intervenções complexas, oferecendo suporte em áreas como cirurgia, odontologia e diagnóstico por imagem. Além de cuidar da saúde dos animais, os veterinários também contribuem para a saúde pública ao prevenir a disseminação de doenças transmissíveis. Por meio de um atendimento comprometido e especializado, a medicina veterinária visa não apenas prolongar a vida dos animais, mas também melhorar sua qualidade, proporcionando tranquilidade e segurança para seus tutores.</p>
+    <div class="conteudo">
+      <p class="explicativo">
+        O Dr. Ribas Figueira está aqui para ajudar! A medicina veterinária é uma ciência dedicada ao cuidado e bem-estar dos animais, garantindo que eles estejam livres de doenças, recebam nutrição adequada e vivam em ambientes saudáveis. A atuação de um veterinário é essencial, desde tratamentos preventivos até intervenções complexas, oferecendo suporte em áreas como cirurgia, odontologia e diagnóstico por imagem. Além de cuidar da saúde dos animais, os veterinários também contribuem para a saúde pública ao prevenir a disseminação de doenças transmissíveis. Por meio de um atendimento comprometido e especializado, a medicina veterinária visa não apenas prolongar a vida dos animais, mas também melhorar sua qualidade, proporcionando tranquilidade e segurança para seus tutores.
+      </p>
+      <img src="blood.png" alt="Imagem de cachorro" class="imagem-cachorro">
+    </div>
   </body>
 </html>
