@@ -4,16 +4,22 @@
     <title>VINIVET</title>
     <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
     <style>
+      @font-face {
+        font-family: 'ComicBD';
+        src: url('fontes/COMICBD.TTF') format('truetype');
+        font-weight: bold;
+      }
+
       body {
         background-color: blue;
-        color: white; /* Mantém o texto legível sobre o fundo azul */
+        color: white;
         margin: 0;
         padding: 0;
         font-family: Arial, sans-serif;
       }
-      /* Estilo para o texto principal */
+  
       .titulo {
-         font-family: 'DynaPuff', sans-serif;
+        font-family: 'ComicBD', sans-serif; /* Aplica a nova fonte */
         font-weight: bold;
         font-size: 50px;
         text-align: center;
@@ -22,7 +28,7 @@
           -2px -2px 0 #000,  
           2px -2px 0 #000,  
           -2px 2px 0 #000,  
-          2px 2px 0 #000; /* Contorno preto */
+          2px 2px 0 #000;
       }
 
       /* Animação das cores do arco-íris */
